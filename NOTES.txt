@@ -1,0 +1,2 @@
+BROWSER-SYNC COMMAND:
+browser-sync start --server --directory --files "**/*"
