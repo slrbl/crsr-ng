@@ -9,7 +9,7 @@
 
   function foundItems() {
   var ddo = {
-    templateUrl: 'https://slrbl.github.io/crsr-ng/module3-solution/founditems.html',
+    templateUrl: 'https://raw.githubusercontent.com/slrbl/crsr-ng/master/module3-solution/founditems.html',
     scope: {
       myItems:'=',
       title: '@',
