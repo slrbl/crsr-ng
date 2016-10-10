@@ -1,7 +1,9 @@
 (function () {
 
   'use strict';
-  angular.module('NarrowItDownApp',[]).config(function($sceDelegateProvider) {
+  angular.module('NarrowItDownApp',[])
+    
+    .config(function($sceDelegateProvider) {
      $sceDelegateProvider.resourceUrlWhitelist([
     // Allow same origin resource loads.
     'self',
