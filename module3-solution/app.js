@@ -20,7 +20,7 @@
 
   function foundItems() {
   var ddo = {
-    templateUrl: 'https://raw.githubusercontent.com/slrbl/crsr-ng/master/module3-solution/founditems.html',
+    templateUrl: 'founditems.html',
     scope: {
       myItems:'=',
       title: '@',
