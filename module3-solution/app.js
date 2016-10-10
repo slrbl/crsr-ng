@@ -1,11 +1,22 @@
 (function () {
 
   'use strict';
-  angular.module('NarrowItDownApp',[])
+  angular.module('NarrowItDownApp',[]).config(function($sceDelegateProvider) {
+     $sceDelegateProvider.resourceUrlWhitelist([
+    // Allow same origin resource loads.
+    'self',
+    // Allow loading from our assets domain.  Notice the difference between * and **.
+    'https://slrbl.github.io/crsr-ng/module3-solution/**'
+  ]);
+    
+    
   .controller('NarrowItDownController',NarrowItDownController)
   .service('MenuSearchService',MenuSearchService)
 
   .directive('foundItems', foundItems);
+  
+
+    
 
   function foundItems() {
   var ddo = {
