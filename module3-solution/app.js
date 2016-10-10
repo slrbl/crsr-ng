@@ -8,7 +8,7 @@
     'self',
     // Allow loading from our assets domain.  Notice the difference between * and **.
     'https://slrbl.github.io/crsr-ng/module3-solution/**'
-  ])});
+  ])})
 
 
   .controller('NarrowItDownController',NarrowItDownController)
