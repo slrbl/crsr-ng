@@ -1,0 +1,19 @@
+
+<ol>
+
+<center><h5 style="background-color:orange">{{ title }}</h5></center>
+</div>
+<br>
+
+
+
+  <li ng-repeat="item in myItems">
+    {{item.name}}
+    <br>{{item.description}}
+    <br>
+    <button ng-click="NarrowItDown.onRemove({index: $index});" class="btn btn-primary" style="background-color:red;border-color:red; text-align:right">Don't want this one</button>
+    <hr>
+
+  </li>
+    <div ng-if="NarrowItDown.found.getMatchedMenuItems()==0" class="emptyMessage" >Nothing bought yet.</div>
+</ol>
