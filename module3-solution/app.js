@@ -51,7 +51,7 @@
     }
 
     NarrowItDown.removeItem = function (itemIndex) {
-      NarrowItDown.title=NarrowItDown.found[itemIndex].name+" was removed"
+      NarrowItDown.title="You removed "NarrowItDown.found[itemIndex].name+"."
       NarrowItDown.found.splice(itemIndex, 1);
 
 
